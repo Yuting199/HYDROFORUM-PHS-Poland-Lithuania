@@ -1,0 +1,222 @@
+{
+  "version": "v0.1.0",
+  "status": "public subset; third-party price redistribution unresolved",
+  "manifest_excludes_itself": true,
+  "withheld_local_files": [
+    "data/prices_PL_LT_native_2021_2025.parquet",
+    "data/prices_PL_LT_hourly_2021_2025.parquet",
+    "data/phs_baseline_dispatch.parquet",
+    "data/phs_discrete_baseline_dispatch.parquet",
+    "data/phs_sensitivity_dispatch.parquet",
+    "data/phs_operating_hourly_profiles.csv",
+    "data/price_spread_diagnostics_2021_2025.csv",
+    "figures/figure_1_market_background.png",
+    "figures/figure_1_market_background.pdf",
+    "figures/figure_price_structure.png",
+    "figures/figure_price_structure.pdf",
+    "figures/figure_spread_contributions.png",
+    "figures/figure_spread_contributions.pdf"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 745,
+      "sha256": "831e214034827a5a1910ad4e884a15d18ae82f455dfe4dc35706347e2eeccc40"
+    },
+    {
+      "path": "AUTHORSHIP_AND_LICENSE.md",
+      "bytes": 2368,
+      "sha256": "fedd65946049e455c77ffc9b7909e35efe63e6682168fc928b31472879e8bcbf"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 532,
+      "sha256": "081dd2c5a7a5266b2d2ac8679e28200f91930d0c48d4213456b0d083412de2e2"
+    },
+    {
+      "path": "DATA_RIGHTS.md",
+      "bytes": 4322,
+      "sha256": "08bbb5bb777257d51f27e5219ef66a2220a370ea7f89d425cc1773b71da6e4b9"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1067,
+      "sha256": "caf86c1a64cc280cee98dcdbfdaa8bba251326985935c953eed7fa38f288c056"
+    },
+    {
+      "path": "PACKAGING_NOTES.md",
+      "bytes": 4283,
+      "sha256": "27718e4649d15e7ec29f9dc66167a2ca2af2f49532348249151722036c989e2f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8949,
+      "sha256": "5248b11a66ce37852bc88ba17683710eda85201bfaa66e9e8ebfef95cc359a3b"
+    },
+    {
+      "path": "SHARING_STATUS.md",
+      "bytes": 1915,
+      "sha256": "1db29040118fddacba53eb80b09651f6ac5966210c5ab6ba8630b32fcaba9991"
+    },
+    {
+      "path": "SOURCE_PROVENANCE.json",
+      "bytes": 16434,
+      "sha256": "cdd1ce4dd587967f63b0979734152c62409559dab0ea9cbe6959220ec9cf5b78"
+    },
+    {
+      "path": "conference_documents/README.md",
+      "bytes": 453,
+      "sha256": "3199656673029e57b435e5966f7a9a2509b1d592371999e3b7423c90d4631e9c"
+    },
+    {
+      "path": "data/phs_baseline_annual.csv",
+      "bytes": 1505,
+      "sha256": "7197b17fbb4171909d2bdea70e8fa198b07e55650c9f9544d01bd7bead9eb615"
+    },
+    {
+      "path": "data/phs_capex_sensitivity.csv",
+      "bytes": 15781,
+      "sha256": "ca8e7b327314341fa7e5864bd051616fb49f57f596207793a4c445059e6b1384"
+    },
+    {
+      "path": "data/phs_discrete_baseline_annual.csv",
+      "bytes": 2975,
+      "sha256": "e0f88900ffd6b342e06adf0668364e85b4d1b25fb28ff399a188a8a6d4c8bf9e"
+    },
+    {
+      "path": "data/phs_financial_sensitivity.csv",
+      "bytes": 2711,
+      "sha256": "5f5534f48a47c6bdd07ba067e9d25ff53c7feab23974ec9be1878e8c453e5e2e"
+    },
+    {
+      "path": "data/phs_operating_daily.parquet",
+      "bytes": 118422,
+      "sha256": "5d66d8ffb1b5ffba7df29c0664999b1079025edf628df1467709679ae468bb44"
+    },
+    {
+      "path": "data/phs_operating_pattern_robustness.csv",
+      "bytes": 73938,
+      "sha256": "1507d42994a2a144cd37b4fb4404b9fbbd89c7e3db15a7e7f9cd9ef938fb4d0c"
+    },
+    {
+      "path": "data/phs_operating_patterns_audit.json",
+      "bytes": 39169,
+      "sha256": "355e123060a09dad9b9d62d65f11b64339746ba7d8df2a2b55a879c9c54c0700"
+    },
+    {
+      "path": "data/phs_operating_period_summary.csv",
+      "bytes": 14887,
+      "sha256": "d11413e8fd1fe09cb0fe32ec8f582828c5ea94c99f2b6d64b7f29ffb39c7fcfb"
+    },
+    {
+      "path": "data/phs_sensitivity_annual.csv",
+      "bytes": 29031,
+      "sha256": "9d5cc9f21f5ed7f43db69ff2c98ea732b476e8cf5348125461892907a8c48b65"
+    },
+    {
+      "path": "data/phs_sensitivity_mean.csv",
+      "bytes": 4062,
+      "sha256": "b156bc9fde6df43bdf9bc93004d911c8ed0f99dc31eb0990e1fd3091bb195daf"
+    },
+    {
+      "path": "figures/figure_1_technical_sensitivity_revised.pdf",
+      "bytes": 51455,
+      "sha256": "66f91da041c4c9136104a6bd565a28f58b3c00fbc2949f761de34fba127795ed"
+    },
+    {
+      "path": "figures/figure_1_technical_sensitivity_revised.png",
+      "bytes": 629576,
+      "sha256": "bfc4336c98a93d4721ecbb02f5d54fd75912982f145df5ba23f4fa13cfa8f7f8"
+    },
+    {
+      "path": "figures/figure_2_supportable_capex_arbitrage_only.pdf",
+      "bytes": 39626,
+      "sha256": "560b0447cada2da37f462fb963e30f8810aa9e14b0d65207514901c77ccb4c1a"
+    },
+    {
+      "path": "figures/figure_2_supportable_capex_arbitrage_only.png",
+      "bytes": 500221,
+      "sha256": "602cbd4b081705cee812ec1140bd836d13d90645fc640ccaaf60321cde8016b9"
+    },
+    {
+      "path": "figures/figure_phs_daily_patterns.pdf",
+      "bytes": 37208,
+      "sha256": "0e565a5a5c26b73f429b0a94fe78d35d0a35a01f8d4d042f3f70d1da45ace59d"
+    },
+    {
+      "path": "figures/figure_phs_daily_patterns.png",
+      "bytes": 460950,
+      "sha256": "60881229562a768daba7a3cd28f6627ddd50f5f2e245d86e6d9c3be0419e5d33"
+    },
+    {
+      "path": "figures/figure_phs_seasonal_pumping.pdf",
+      "bytes": 37388,
+      "sha256": "cc156cc3c4076f6b6645b7b62b15cbbef311b94fcf91035d06cb79e133741e81"
+    },
+    {
+      "path": "figures/figure_phs_seasonal_pumping.png",
+      "bytes": 574399,
+      "sha256": "92312bc89c209baeb33607d1f1a67d4e0564a0d8bbb4f10c0e80b2ef0c4e1ee0"
+    },
+    {
+      "path": "reports/phs_operating_patterns_summary.docx",
+      "bytes": 929837,
+      "sha256": "4fcabcbe178ee3bf2374e7bdfb3da3b3a5544c290a6038f736d66f27d38f6fa8"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 156,
+      "sha256": "4d7f795d21093df9e8375b628ad0b28f9e1dbfcd75951c1c53063cbb46dcbe3a"
+    },
+    {
+      "path": "scripts/analyse_phs_operating_patterns.py",
+      "bytes": 26302,
+      "sha256": "f0cf5f6380aa38ec6ab61bb1f561af2e6f245d72f710ea15c3e401202e1e834f"
+    },
+    {
+      "path": "scripts/analyse_price_spreads.py",
+      "bytes": 7980,
+      "sha256": "331d0446bb7cf05c797fbe8bbad02c9dfa446f6c4ea12e5c3cc1da67549e9f98"
+    },
+    {
+      "path": "scripts/check_package.py",
+      "bytes": 2065,
+      "sha256": "1b1385c8e6062654b26c3b5cd0557806d26f4449f721660f9d7a2acd5bff6fb4"
+    },
+    {
+      "path": "scripts/plot_main_figures.py",
+      "bytes": 11803,
+      "sha256": "3e9bf78e1cddf8fcfeacffbefbc1f693c1ec5e8a1170f56cc57c2440380f1857"
+    },
+    {
+      "path": "scripts/plot_price_spread_figures.py",
+      "bytes": 11390,
+      "sha256": "2971b78d4e82bb6379c99787542759c29a330235bc65f4c886cf210f30421878"
+    },
+    {
+      "path": "scripts/plot_price_summary.py",
+      "bytes": 7991,
+      "sha256": "061f6b765415e32ab3a764e7713a8fae807352b0071af09ab334dba595c090b4"
+    },
+    {
+      "path": "scripts/plot_revised_main_figures.py",
+      "bytes": 9493,
+      "sha256": "a3fea9aae89bb7aa32bec6c9b6b41ac1b1b4049b1a03f23722964c7072ea7cf5"
+    },
+    {
+      "path": "scripts/prepare_prices.py",
+      "bytes": 15009,
+      "sha256": "e3d86ee890a9107048b83dbcfe8521677e9b79f21de5a7be851394cacfdd5eb2"
+    },
+    {
+      "path": "scripts/run_phs.py",
+      "bytes": 30922,
+      "sha256": "ec51bc0f51d974fe5cc9840608646e3b019f82fafdfae104804905100393d647"
+    },
+    {
+      "path": "scripts/run_sensitivities.py",
+      "bytes": 24874,
+      "sha256": "84e8e671f353e64b8935a5b4539befc819641bb4dfbaacf382405eeeb4e0aed8"
+    }
+  ]
+}

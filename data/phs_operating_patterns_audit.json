@@ -1,0 +1,1236 @@
+{
+  "run_timestamp_utc": "2026-10-23T13:40:51.059781+00:00",
+  "script_sha256": "f0cf5f6380aa38ec6ab61bb1f561af2e6f245d72f710ea15c3e401202e1e834f",
+  "input_dispatch_sha256": "44a9356430136aab6180e8838a8970185fc9f2608a12f6b09bcbaaeda06f8769",
+  "input_price_sha256": "691c084638f70e1e8b93ac286dd5eb7c5c137c9eaa36fa0b658bd8debf1b21c0",
+  "input_annual_sha256": "7197b17fbb4171909d2bdea70e8fa198b07e55650c9f9544d01bd7bead9eb615",
+  "parameters": {
+    "generating_power_mw": 1.0,
+    "pumping_power_mw": 1.0,
+    "duration_hours": 6.0,
+    "efficiency": 0.75,
+    "initial_soc_fraction": 0.5,
+    "pumping_formulation": "continuous",
+    "n_pump_units": 4,
+    "dt_hours": 1.0,
+    "energy_capacity_mwh": 6.0,
+    "initial_and_terminal_energy_mwh": 3.0,
+    "unit_pumping_power_mw": 0.25
+  },
+  "model_years_utc": [
+    2023,
+    2024,
+    2025
+  ],
+  "timezones": {
+    "PL": "Europe/Warsaw",
+    "LT": "Europe/Vilnius"
+  },
+  "classification": {
+    "midday_start": 10,
+    "night_start": 22,
+    "both_threshold": 0.2,
+    "dominant_threshold": 0.6
+  },
+  "activity_tolerance_mw": 1e-06,
+  "inactive_day_tolerance_mwh": 1e-06,
+  "share_comparison_tolerance": 1e-10,
+  "reference_validation": {
+    "input_sha256": "691c084638f70e1e8b93ac286dd5eb7c5c137c9eaa36fa0b658bd8debf1b21c0",
+    "original_model_sha256": "e361bb8e52238d3d10ac4ea32d687fb077ac475d70ed2e06b7c31d2722631201",
+    "reference_files_sha256": {
+      "data/phs_baseline_dispatch.parquet": "44a9356430136aab6180e8838a8970185fc9f2608a12f6b09bcbaaeda06f8769",
+      "data/phs_baseline_annual.csv": "7197b17fbb4171909d2bdea70e8fa198b07e55650c9f9544d01bd7bead9eb615"
+    },
+    "validation": {
+      "PL_2023": {
+        "power_bound_violation_mw": 0.0,
+        "energy_bound_violation_mwh": 7.105427357601002e-15,
+        "mode_bound_violation": 0.0,
+        "mode_integrality_error": 0.0,
+        "mode_constraint_violation_mw": 0.0,
+        "simultaneous_power_mw": 0.0,
+        "energy_balance_error_mwh": 4.440892098500626e-16,
+        "initial_energy_error_mwh": 0.0,
+        "terminal_energy_error_mwh": 0.0,
+        "annual_energy_error_mwh": 0.0,
+        "objective_reconstruction_error_eur": 0.0
+      },
+      "PL_2024": {
+        "power_bound_violation_mw": 0.0,
+        "energy_bound_violation_mwh": 0.0,
+        "mode_bound_violation": 0.0,
+        "mode_integrality_error": 0.0,
+        "mode_constraint_violation_mw": 0.0,
+        "simultaneous_power_mw": 0.0,
+        "energy_balance_error_mwh": 6.217248937900877e-15,
+        "initial_energy_error_mwh": 0.0,
+        "terminal_energy_error_mwh": 0.0,
+        "annual_energy_error_mwh": 0.0,
+        "objective_reconstruction_error_eur": 0.0
+      },
+      "PL_2025": {
+        "power_bound_violation_mw": 6.661338147750939e-16,
+        "energy_bound_violation_mwh": 0.0,
+        "mode_bound_violation": 0.0,
+        "mode_integrality_error": 0.0,
+        "mode_constraint_violation_mw": 6.661338147750939e-16,
+        "simultaneous_power_mw": 0.0,
+        "energy_balance_error_mwh": 4.440892098500626e-16,
+        "initial_energy_error_mwh": 0.0,
+        "terminal_energy_error_mwh": 0.0,
+        "annual_energy_error_mwh": 0.0,
+        "objective_reconstruction_error_eur": 0.0
+      },
+      "LT_2023": {
+        "power_bound_violation_mw": 0.0,
+        "energy_bound_violation_mwh": 0.0,
+        "mode_bound_violation": 0.0,
+        "mode_integrality_error": 0.0,
+        "mode_constraint_violation_mw": 0.0,
+        "simultaneous_power_mw": 0.0,
+        "energy_balance_error_mwh": 4.440892098500626e-16,
+        "initial_energy_error_mwh": 0.0,
+        "terminal_energy_error_mwh": 0.0,
+        "annual_energy_error_mwh": 0.0,
+        "objective_reconstruction_error_eur": 0.0
+      },
+      "LT_2024": {
+        "power_bound_violation_mw": 0.0,
+        "energy_bound_violation_mwh": 0.0,
+        "mode_bound_violation": 0.0,
+        "mode_integrality_error": 0.0,
+        "mode_constraint_violation_mw": 0.0,
+        "simultaneous_power_mw": 0.0,
+        "energy_balance_error_mwh": 0.0,
+        "initial_energy_error_mwh": 0.0,
+        "terminal_energy_error_mwh": 0.0,
+        "annual_energy_error_mwh": 0.0,
+        "objective_reconstruction_error_eur": 0.0
+      },
+      "LT_2025": {
+        "power_bound_violation_mw": 0.0,
+        "energy_bound_violation_mwh": 0.0,
+        "mode_bound_violation": 0.0,
+        "mode_integrality_error": 0.0,
+        "mode_constraint_violation_mw": 0.0,
+        "simultaneous_power_mw": 0.0,
+        "energy_balance_error_mwh": 2.220446049250313e-16,
+        "initial_energy_error_mwh": 0.0,
+        "terminal_energy_error_mwh": 0.0,
+        "annual_energy_error_mwh": 0.0,
+        "objective_reconstruction_error_eur": 0.0
+      }
+    },
+    "mode_note": "Original continuous model inspected; binary modes reconstructed for saved-dispatch checks."
+  },
+  "method": "No optimisation or clustering. Unrounded energy; actual 1h intervals. Hourly/period summaries use original UTC model year and local season/hour. Daily types use complete local calendar days, including 23/25h DST days. All-year shares use energy totals, not annual mean shares. Both classification takes precedence over dominant. Saved schedule is not necessarily unique.",
+  "boundary_days": [
+    {
+      "country": "LT",
+      "local_date": "2023-01-01",
+      "local_year": 2023,
+      "season": "winter",
+      "timezone": "Europe/Vilnius",
+      "complete_local_day": false,
+      "observed_hours": 22,
+      "expected_hours": 24,
+      "crosses_model_year": false,
+      "pumped_mwh": 5.333333333333334,
+      "generated_mwh": 1.75,
+      "pumping_active_hours": 6,
+      "energy_begin_mwh": 3.0,
+      "energy_end_mwh": 5.25,
+      "minimum_energy_mwh": 2.0,
+      "maximum_energy_mwh": 6.0,
+      "pattern": "incomplete_day",
+      "midday_pumped_mwh": 0.0,
+      "midday_observed_hours": 6,
+      "midday_energy_share": 0.0,
+      "midday_mean_pumping_mw": 0.0,
+      "night_pumped_mwh": 3.0,
+      "night_observed_hours": 6,
+      "night_energy_share": 0.5624999999999999,
+      "night_mean_pumping_mw": 0.5,
+      "other_pumped_mwh": 2.3333333333333335,
+      "other_observed_hours": 10,
+      "other_energy_share": 0.4375,
+      "other_mean_pumping_mw": 0.23333333333333334
+    },
+    {
+      "country": "LT",
+      "local_date": "2026-01-01",
+      "local_year": 2026,
+      "season": "winter",
+      "timezone": "Europe/Vilnius",
+      "complete_local_day": false,
+      "observed_hours": 2,
+      "expected_hours": 24,
+      "crosses_model_year": false,
+      "pumped_mwh": 2.0,
+      "generated_mwh": 0.0,
+      "pumping_active_hours": 2,
+      "energy_begin_mwh": 1.5,
+      "energy_end_mwh": 3.0,
+      "minimum_energy_mwh": 1.5,
+      "maximum_energy_mwh": 3.0,
+      "pattern": "incomplete_day",
+      "midday_pumped_mwh": 0.0,
+      "midday_observed_hours": 0,
+      "midday_energy_share": 0.0,
+      "midday_mean_pumping_mw": null,
+      "night_pumped_mwh": 2.0,
+      "night_observed_hours": 2,
+      "night_energy_share": 1.0,
+      "night_mean_pumping_mw": 1.0,
+      "other_pumped_mwh": 0.0,
+      "other_observed_hours": 0,
+      "other_energy_share": 0.0,
+      "other_mean_pumping_mw": null
+    },
+    {
+      "country": "PL",
+      "local_date": "2023-01-01",
+      "local_year": 2023,
+      "season": "winter",
+      "timezone": "Europe/Warsaw",
+      "complete_local_day": false,
+      "observed_hours": 23,
+      "expected_hours": 24,
+      "crosses_model_year": false,
+      "pumped_mwh": 4.0,
+      "generated_mwh": 0.0,
+      "pumping_active_hours": 4,
+      "energy_begin_mwh": 3.0,
+      "energy_end_mwh": 6.0,
+      "minimum_energy_mwh": 3.0,
+      "maximum_energy_mwh": 6.0,
+      "pattern": "incomplete_day",
+      "midday_pumped_mwh": 1.0,
+      "midday_observed_hours": 6,
+      "midday_energy_share": 0.25,
+      "midday_mean_pumping_mw": 0.16666666666666666,
+      "night_pumped_mwh": 2.0,
+      "night_observed_hours": 7,
+      "night_energy_share": 0.5,
+      "night_mean_pumping_mw": 0.2857142857142857,
+      "other_pumped_mwh": 1.0,
+      "other_observed_hours": 10,
+      "other_energy_share": 0.25,
+      "other_mean_pumping_mw": 0.1
+    },
+    {
+      "country": "PL",
+      "local_date": "2026-01-01",
+      "local_year": 2026,
+      "season": "winter",
+      "timezone": "Europe/Warsaw",
+      "complete_local_day": false,
+      "observed_hours": 1,
+      "expected_hours": 24,
+      "crosses_model_year": false,
+      "pumped_mwh": 0.0,
+      "generated_mwh": 0.0,
+      "pumping_active_hours": 0,
+      "energy_begin_mwh": 3.0,
+      "energy_end_mwh": 3.0,
+      "minimum_energy_mwh": 3.0,
+      "maximum_energy_mwh": 3.0,
+      "pattern": "incomplete_day",
+      "midday_pumped_mwh": 0.0,
+      "midday_observed_hours": 0,
+      "midday_energy_share": null,
+      "midday_mean_pumping_mw": null,
+      "night_pumped_mwh": 0.0,
+      "night_observed_hours": 1,
+      "night_energy_share": null,
+      "night_mean_pumping_mw": 0.0,
+      "other_pumped_mwh": 0.0,
+      "other_observed_hours": 0,
+      "other_energy_share": null,
+      "other_mean_pumping_mw": null
+    }
+  ],
+  "cross_model_year_days": [
+    {
+      "country": "LT",
+      "local_date": "2024-01-01",
+      "pattern": "night_dominant"
+    },
+    {
+      "country": "LT",
+      "local_date": "2025-01-01",
+      "pattern": "night_dominant"
+    },
+    {
+      "country": "PL",
+      "local_date": "2024-01-01",
+      "pattern": "night_dominant"
+    },
+    {
+      "country": "PL",
+      "local_date": "2025-01-01",
+      "pattern": "both"
+    }
+  ],
+  "daily_pattern_summary": [
+    {
+      "country": "PL",
+      "local_year": "all",
+      "pattern": "midday_dominant",
+      "days": 367,
+      "complete_days": 1095,
+      "day_share": 0.33515981735159817,
+      "pumped_mwh": 2336.6666666666665,
+      "pumping_energy_share": 0.3450482378420949
+    },
+    {
+      "country": "PL",
+      "local_year": "all",
+      "pattern": "night_dominant",
+      "days": 344,
+      "complete_days": 1095,
+      "day_share": 0.3141552511415525,
+      "pumped_mwh": 1852.6666666666667,
+      "pumping_energy_share": 0.27357747588107895
+    },
+    {
+      "country": "PL",
+      "local_year": "all",
+      "pattern": "both",
+      "days": 308,
+      "complete_days": 1095,
+      "day_share": 0.28127853881278536,
+      "pumped_mwh": 2505.6666666666665,
+      "pumping_energy_share": 0.37000393778302815
+    },
+    {
+      "country": "PL",
+      "local_year": "all",
+      "pattern": "other",
+      "days": 19,
+      "complete_days": 1095,
+      "day_share": 0.017351598173515982,
+      "pumped_mwh": 77.0,
+      "pumping_energy_share": 0.011370348493797991
+    },
+    {
+      "country": "PL",
+      "local_year": "all",
+      "pattern": "no_pumping",
+      "days": 57,
+      "complete_days": 1095,
+      "day_share": 0.052054794520547946,
+      "pumped_mwh": 0.0,
+      "pumping_energy_share": 0.0
+    },
+    {
+      "country": "PL",
+      "local_year": "2023",
+      "pattern": "midday_dominant",
+      "days": 92,
+      "complete_days": 364,
+      "day_share": 0.25274725274725274,
+      "pumped_mwh": 493.0,
+      "pumping_energy_share": 0.25583809029579657
+    },
+    {
+      "country": "PL",
+      "local_year": "2023",
+      "pattern": "night_dominant",
+      "days": 139,
+      "complete_days": 364,
+      "day_share": 0.38186813186813184,
+      "pumped_mwh": 743.6666666666666,
+      "pumping_energy_share": 0.3859193911088047
+    },
+    {
+      "country": "PL",
+      "local_year": "2023",
+      "pattern": "both",
+      "days": 82,
+      "complete_days": 364,
+      "day_share": 0.22527472527472528,
+      "pumped_mwh": 650.0,
+      "pumping_energy_share": 0.33731188375713544
+    },
+    {
+      "country": "PL",
+      "local_year": "2023",
+      "pattern": "other",
+      "days": 11,
+      "complete_days": 364,
+      "day_share": 0.03021978021978022,
+      "pumped_mwh": 40.333333333333336,
+      "pumping_energy_share": 0.02093063483826328
+    },
+    {
+      "country": "PL",
+      "local_year": "2023",
+      "pattern": "no_pumping",
+      "days": 40,
+      "complete_days": 364,
+      "day_share": 0.10989010989010989,
+      "pumped_mwh": 0.0,
+      "pumping_energy_share": 0.0
+    },
+    {
+      "country": "PL",
+      "local_year": "2024",
+      "pattern": "midday_dominant",
+      "days": 124,
+      "complete_days": 366,
+      "day_share": 0.33879781420765026,
+      "pumped_mwh": 791.0,
+      "pumping_energy_share": 0.32898932483016774
+    },
+    {
+      "country": "PL",
+      "local_year": "2024",
+      "pattern": "night_dominant",
+      "days": 128,
+      "complete_days": 366,
+      "day_share": 0.34972677595628415,
+      "pumped_mwh": 715.6666666666666,
+      "pumping_energy_share": 0.29765700817967555
+    },
+    {
+      "country": "PL",
+      "local_year": "2024",
+      "pattern": "both",
+      "days": 101,
+      "complete_days": 366,
+      "day_share": 0.27595628415300544,
+      "pumped_mwh": 887.0,
+      "pumping_energy_share": 0.3689172327741577
+    },
+    {
+      "country": "PL",
+      "local_year": "2024",
+      "pattern": "other",
+      "days": 4,
+      "complete_days": 366,
+      "day_share": 0.01092896174863388,
+      "pumped_mwh": 10.666666666666666,
+      "pumping_energy_share": 0.00443643421599889
+    },
+    {
+      "country": "PL",
+      "local_year": "2024",
+      "pattern": "no_pumping",
+      "days": 9,
+      "complete_days": 366,
+      "day_share": 0.02459016393442623,
+      "pumped_mwh": 0.0,
+      "pumping_energy_share": 0.0
+    },
+    {
+      "country": "PL",
+      "local_year": "2025",
+      "pattern": "midday_dominant",
+      "days": 151,
+      "complete_days": 365,
+      "day_share": 0.4136986301369863,
+      "pumped_mwh": 1052.6666666666667,
+      "pumping_energy_share": 0.43130292269871623
+    },
+    {
+      "country": "PL",
+      "local_year": "2025",
+      "pattern": "night_dominant",
+      "days": 77,
+      "complete_days": 365,
+      "day_share": 0.21095890410958903,
+      "pumped_mwh": 393.3333333333333,
+      "pumping_energy_share": 0.16115815350996995
+    },
+    {
+      "country": "PL",
+      "local_year": "2025",
+      "pattern": "both",
+      "days": 125,
+      "complete_days": 365,
+      "day_share": 0.3424657534246575,
+      "pumped_mwh": 968.6666666666666,
+      "pumping_energy_share": 0.3968860966948921
+    },
+    {
+      "country": "PL",
+      "local_year": "2025",
+      "pattern": "other",
+      "days": 4,
+      "complete_days": 365,
+      "day_share": 0.010958904109589041,
+      "pumped_mwh": 26.0,
+      "pumping_energy_share": 0.010652827096421744
+    },
+    {
+      "country": "PL",
+      "local_year": "2025",
+      "pattern": "no_pumping",
+      "days": 8,
+      "complete_days": 365,
+      "day_share": 0.021917808219178082,
+      "pumped_mwh": 0.0,
+      "pumping_energy_share": 0.0
+    },
+    {
+      "country": "LT",
+      "local_year": "all",
+      "pattern": "midday_dominant",
+      "days": 140,
+      "complete_days": 1095,
+      "day_share": 0.1278538812785388,
+      "pumped_mwh": 1059.6666666666667,
+      "pumping_energy_share": 0.1138202649480845
+    },
+    {
+      "country": "LT",
+      "local_year": "all",
+      "pattern": "night_dominant",
+      "days": 372,
+      "complete_days": 1095,
+      "day_share": 0.33972602739726027,
+      "pumped_mwh": 2696.0,
+      "pumping_energy_share": 0.2895810955961332
+    },
+    {
+      "country": "LT",
+      "local_year": "all",
+      "pattern": "both",
+      "days": 522,
+      "complete_days": 1095,
+      "day_share": 0.4767123287671233,
+      "pumped_mwh": 5068.666666666667,
+      "pumping_energy_share": 0.5444325098460437
+    },
+    {
+      "country": "LT",
+      "local_year": "all",
+      "pattern": "other",
+      "days": 58,
+      "complete_days": 1095,
+      "day_share": 0.052968036529680365,
+      "pumped_mwh": 485.6666666666667,
+      "pumping_energy_share": 0.05216612960973863
+    },
+    {
+      "country": "LT",
+      "local_year": "all",
+      "pattern": "no_pumping",
+      "days": 3,
+      "complete_days": 1095,
+      "day_share": 0.0027397260273972603,
+      "pumped_mwh": 0.0,
+      "pumping_energy_share": 0.0
+    },
+    {
+      "country": "LT",
+      "local_year": "2023",
+      "pattern": "midday_dominant",
+      "days": 33,
+      "complete_days": 364,
+      "day_share": 0.09065934065934066,
+      "pumped_mwh": 230.33333333333334,
+      "pumping_energy_share": 0.08069601775078827
+    },
+    {
+      "country": "LT",
+      "local_year": "2023",
+      "pattern": "night_dominant",
+      "days": 158,
+      "complete_days": 364,
+      "day_share": 0.4340659340659341,
+      "pumped_mwh": 1103.3333333333333,
+      "pumping_energy_share": 0.3865467709914749
+    },
+    {
+      "country": "LT",
+      "local_year": "2023",
+      "pattern": "both",
+      "days": 149,
+      "complete_days": 364,
+      "day_share": 0.40934065934065933,
+      "pumped_mwh": 1353.3333333333333,
+      "pumping_energy_share": 0.47413289734905983
+    },
+    {
+      "country": "LT",
+      "local_year": "2023",
+      "pattern": "other",
+      "days": 22,
+      "complete_days": 364,
+      "day_share": 0.06043956043956044,
+      "pumped_mwh": 167.33333333333334,
+      "pumping_energy_share": 0.05862431390867687
+    },
+    {
+      "country": "LT",
+      "local_year": "2023",
+      "pattern": "no_pumping",
+      "days": 2,
+      "complete_days": 364,
+      "day_share": 0.005494505494505495,
+      "pumped_mwh": 0.0,
+      "pumping_energy_share": 0.0
+    },
+    {
+      "country": "LT",
+      "local_year": "2024",
+      "pattern": "midday_dominant",
+      "days": 49,
+      "complete_days": 366,
+      "day_share": 0.13387978142076504,
+      "pumped_mwh": 374.6666666666667,
+      "pumping_energy_share": 0.1188914745081447
+    },
+    {
+      "country": "LT",
+      "local_year": "2024",
+      "pattern": "night_dominant",
+      "days": 114,
+      "complete_days": 366,
+      "day_share": 0.3114754098360656,
+      "pumped_mwh": 837.3333333333334,
+      "pumping_energy_share": 0.26570763697905647
+    },
+    {
+      "country": "LT",
+      "local_year": "2024",
+      "pattern": "both",
+      "days": 183,
+      "complete_days": 366,
+      "day_share": 0.5,
+      "pumped_mwh": 1771.6666666666667,
+      "pumping_energy_share": 0.5621958959170721
+    },
+    {
+      "country": "LT",
+      "local_year": "2024",
+      "pattern": "other",
+      "days": 20,
+      "complete_days": 366,
+      "day_share": 0.0546448087431694,
+      "pumped_mwh": 167.66666666666666,
+      "pumping_energy_share": 0.05320499259572667
+    },
+    {
+      "country": "LT",
+      "local_year": "2024",
+      "pattern": "no_pumping",
+      "days": 0,
+      "complete_days": 366,
+      "day_share": 0.0,
+      "pumped_mwh": 0.0,
+      "pumping_energy_share": 0.0
+    },
+    {
+      "country": "LT",
+      "local_year": "2025",
+      "pattern": "midday_dominant",
+      "days": 58,
+      "complete_days": 365,
+      "day_share": 0.1589041095890411,
+      "pumped_mwh": 454.6666666666667,
+      "pumping_energy_share": 0.13759709472409967
+    },
+    {
+      "country": "LT",
+      "local_year": "2025",
+      "pattern": "night_dominant",
+      "days": 100,
+      "complete_days": 365,
+      "day_share": 0.273972602739726,
+      "pumped_mwh": 755.3333333333334,
+      "pumping_energy_share": 0.2285887218803591
+    },
+    {
+      "country": "LT",
+      "local_year": "2025",
+      "pattern": "both",
+      "days": 190,
+      "complete_days": 365,
+      "day_share": 0.5205479452054794,
+      "pumped_mwh": 1943.6666666666667,
+      "pumping_energy_share": 0.5882174921819833
+    },
+    {
+      "country": "LT",
+      "local_year": "2025",
+      "pattern": "other",
+      "days": 16,
+      "complete_days": 365,
+      "day_share": 0.043835616438356165,
+      "pumped_mwh": 150.66666666666666,
+      "pumping_energy_share": 0.04559669121355795
+    },
+    {
+      "country": "LT",
+      "local_year": "2025",
+      "pattern": "no_pumping",
+      "days": 1,
+      "complete_days": 365,
+      "day_share": 0.0027397260273972603,
+      "pumped_mwh": 0.0,
+      "pumping_energy_share": 0.0
+    }
+  ],
+  "patterns_excluding_model_boundary_days": [
+    {
+      "country": "PL",
+      "local_year": "all",
+      "pattern": "midday_dominant",
+      "days": 367,
+      "complete_days": 1093,
+      "day_share": 0.3357731015553522,
+      "pumped_mwh": 2336.6666666666665,
+      "pumping_energy_share": 0.3456948417003649
+    },
+    {
+      "country": "PL",
+      "local_year": "all",
+      "pattern": "night_dominant",
+      "days": 343,
+      "complete_days": 1093,
+      "day_share": 0.3138151875571821,
+      "pumped_mwh": 1852.0,
+      "pumping_energy_share": 0.2739915179011737
+    },
+    {
+      "country": "PL",
+      "local_year": "all",
+      "pattern": "both",
+      "days": 307,
+      "complete_days": 1093,
+      "day_share": 0.2808783165599268,
+      "pumped_mwh": 2493.6666666666665,
+      "pumping_energy_share": 0.3689219844166091
+    },
+    {
+      "country": "PL",
+      "local_year": "all",
+      "pattern": "other",
+      "days": 19,
+      "complete_days": 1093,
+      "day_share": 0.01738334858188472,
+      "pumped_mwh": 77.0,
+      "pumping_energy_share": 0.011391655981852255
+    },
+    {
+      "country": "PL",
+      "local_year": "all",
+      "pattern": "no_pumping",
+      "days": 57,
+      "complete_days": 1093,
+      "day_share": 0.05215004574565416,
+      "pumped_mwh": 0.0,
+      "pumping_energy_share": 0.0
+    },
+    {
+      "country": "PL",
+      "local_year": "2023",
+      "pattern": "midday_dominant",
+      "days": 92,
+      "complete_days": 364,
+      "day_share": 0.25274725274725274,
+      "pumped_mwh": 493.0,
+      "pumping_energy_share": 0.25583809029579657
+    },
+    {
+      "country": "PL",
+      "local_year": "2023",
+      "pattern": "night_dominant",
+      "days": 139,
+      "complete_days": 364,
+      "day_share": 0.38186813186813184,
+      "pumped_mwh": 743.6666666666666,
+      "pumping_energy_share": 0.3859193911088047
+    },
+    {
+      "country": "PL",
+      "local_year": "2023",
+      "pattern": "both",
+      "days": 82,
+      "complete_days": 364,
+      "day_share": 0.22527472527472528,
+      "pumped_mwh": 650.0,
+      "pumping_energy_share": 0.33731188375713544
+    },
+    {
+      "country": "PL",
+      "local_year": "2023",
+      "pattern": "other",
+      "days": 11,
+      "complete_days": 364,
+      "day_share": 0.03021978021978022,
+      "pumped_mwh": 40.333333333333336,
+      "pumping_energy_share": 0.02093063483826328
+    },
+    {
+      "country": "PL",
+      "local_year": "2023",
+      "pattern": "no_pumping",
+      "days": 40,
+      "complete_days": 364,
+      "day_share": 0.10989010989010989,
+      "pumped_mwh": 0.0,
+      "pumping_energy_share": 0.0
+    },
+    {
+      "country": "PL",
+      "local_year": "2024",
+      "pattern": "midday_dominant",
+      "days": 124,
+      "complete_days": 365,
+      "day_share": 0.33972602739726027,
+      "pumped_mwh": 791.0,
+      "pumping_energy_share": 0.32908057134932744
+    },
+    {
+      "country": "PL",
+      "local_year": "2024",
+      "pattern": "night_dominant",
+      "days": 127,
+      "complete_days": 365,
+      "day_share": 0.34794520547945207,
+      "pumped_mwh": 715.0,
+      "pumping_energy_share": 0.29746221051171823
+    },
+    {
+      "country": "PL",
+      "local_year": "2024",
+      "pattern": "both",
+      "days": 101,
+      "complete_days": 365,
+      "day_share": 0.27671232876712326,
+      "pumped_mwh": 887.0,
+      "pumping_energy_share": 0.3690195534599917
+    },
+    {
+      "country": "PL",
+      "local_year": "2024",
+      "pattern": "other",
+      "days": 4,
+      "complete_days": 365,
+      "day_share": 0.010958904109589041,
+      "pumped_mwh": 10.666666666666666,
+      "pumping_energy_share": 0.004437664678962696
+    },
+    {
+      "country": "PL",
+      "local_year": "2024",
+      "pattern": "no_pumping",
+      "days": 9,
+      "complete_days": 365,
+      "day_share": 0.024657534246575342,
+      "pumped_mwh": 0.0,
+      "pumping_energy_share": 0.0
+    },
+    {
+      "country": "PL",
+      "local_year": "2025",
+      "pattern": "midday_dominant",
+      "days": 151,
+      "complete_days": 364,
+      "day_share": 0.41483516483516486,
+      "pumped_mwh": 1052.6666666666667,
+      "pumping_energy_share": 0.4334339829810596
+    },
+    {
+      "country": "PL",
+      "local_year": "2025",
+      "pattern": "night_dominant",
+      "days": 77,
+      "complete_days": 364,
+      "day_share": 0.21153846153846154,
+      "pumped_mwh": 393.3333333333333,
+      "pumping_energy_share": 0.16195443315948393
+    },
+    {
+      "country": "PL",
+      "local_year": "2025",
+      "pattern": "both",
+      "days": 124,
+      "complete_days": 364,
+      "day_share": 0.34065934065934067,
+      "pumped_mwh": 956.6666666666666,
+      "pumping_energy_share": 0.39390612132857533
+    },
+    {
+      "country": "PL",
+      "local_year": "2025",
+      "pattern": "other",
+      "days": 4,
+      "complete_days": 364,
+      "day_share": 0.01098901098901099,
+      "pumped_mwh": 26.0,
+      "pumping_energy_share": 0.010705462530881142
+    },
+    {
+      "country": "PL",
+      "local_year": "2025",
+      "pattern": "no_pumping",
+      "days": 8,
+      "complete_days": 364,
+      "day_share": 0.02197802197802198,
+      "pumped_mwh": 0.0,
+      "pumping_energy_share": 0.0
+    },
+    {
+      "country": "LT",
+      "local_year": "all",
+      "pattern": "midday_dominant",
+      "days": 140,
+      "complete_days": 1093,
+      "day_share": 0.1280878316559927,
+      "pumped_mwh": 1059.6666666666667,
+      "pumping_energy_share": 0.11400394477317555
+    },
+    {
+      "country": "LT",
+      "local_year": "all",
+      "pattern": "night_dominant",
+      "days": 370,
+      "complete_days": 1093,
+      "day_share": 0.33851784080512354,
+      "pumped_mwh": 2681.0,
+      "pumping_energy_share": 0.2884346422807961
+    },
+    {
+      "country": "LT",
+      "local_year": "all",
+      "pattern": "both",
+      "days": 522,
+      "complete_days": 1093,
+      "day_share": 0.4775846294602013,
+      "pumped_mwh": 5068.666666666667,
+      "pumping_energy_share": 0.5453110991572531
+    },
+    {
+      "country": "LT",
+      "local_year": "all",
+      "pattern": "other",
+      "days": 58,
+      "complete_days": 1093,
+      "day_share": 0.053064958828911254,
+      "pumped_mwh": 485.6666666666667,
+      "pumping_energy_share": 0.05225031378877533
+    },
+    {
+      "country": "LT",
+      "local_year": "all",
+      "pattern": "no_pumping",
+      "days": 3,
+      "complete_days": 1093,
+      "day_share": 0.0027447392497712718,
+      "pumped_mwh": 0.0,
+      "pumping_energy_share": 0.0
+    },
+    {
+      "country": "LT",
+      "local_year": "2023",
+      "pattern": "midday_dominant",
+      "days": 33,
+      "complete_days": 364,
+      "day_share": 0.09065934065934066,
+      "pumped_mwh": 230.33333333333334,
+      "pumping_energy_share": 0.08069601775078827
+    },
+    {
+      "country": "LT",
+      "local_year": "2023",
+      "pattern": "night_dominant",
+      "days": 158,
+      "complete_days": 364,
+      "day_share": 0.4340659340659341,
+      "pumped_mwh": 1103.3333333333333,
+      "pumping_energy_share": 0.3865467709914749
+    },
+    {
+      "country": "LT",
+      "local_year": "2023",
+      "pattern": "both",
+      "days": 149,
+      "complete_days": 364,
+      "day_share": 0.40934065934065933,
+      "pumped_mwh": 1353.3333333333333,
+      "pumping_energy_share": 0.47413289734905983
+    },
+    {
+      "country": "LT",
+      "local_year": "2023",
+      "pattern": "other",
+      "days": 22,
+      "complete_days": 364,
+      "day_share": 0.06043956043956044,
+      "pumped_mwh": 167.33333333333334,
+      "pumping_energy_share": 0.05862431390867687
+    },
+    {
+      "country": "LT",
+      "local_year": "2023",
+      "pattern": "no_pumping",
+      "days": 2,
+      "complete_days": 364,
+      "day_share": 0.005494505494505495,
+      "pumped_mwh": 0.0,
+      "pumping_energy_share": 0.0
+    },
+    {
+      "country": "LT",
+      "local_year": "2024",
+      "pattern": "midday_dominant",
+      "days": 49,
+      "complete_days": 365,
+      "day_share": 0.13424657534246576,
+      "pumped_mwh": 374.6666666666667,
+      "pumping_energy_share": 0.11919406150583245
+    },
+    {
+      "country": "LT",
+      "local_year": "2024",
+      "pattern": "night_dominant",
+      "days": 113,
+      "complete_days": 365,
+      "day_share": 0.3095890410958904,
+      "pumped_mwh": 829.3333333333334,
+      "pumping_energy_share": 0.2638388123011665
+    },
+    {
+      "country": "LT",
+      "local_year": "2024",
+      "pattern": "both",
+      "days": 183,
+      "complete_days": 365,
+      "day_share": 0.5013698630136987,
+      "pumped_mwh": 1771.6666666666667,
+      "pumping_energy_share": 0.563626723223754
+    },
+    {
+      "country": "LT",
+      "local_year": "2024",
+      "pattern": "other",
+      "days": 20,
+      "complete_days": 365,
+      "day_share": 0.0547945205479452,
+      "pumped_mwh": 167.66666666666666,
+      "pumping_energy_share": 0.05334040296924708
+    },
+    {
+      "country": "LT",
+      "local_year": "2024",
+      "pattern": "no_pumping",
+      "days": 0,
+      "complete_days": 365,
+      "day_share": 0.0,
+      "pumped_mwh": 0.0,
+      "pumping_energy_share": 0.0
+    },
+    {
+      "country": "LT",
+      "local_year": "2025",
+      "pattern": "midday_dominant",
+      "days": 58,
+      "complete_days": 364,
+      "day_share": 0.15934065934065933,
+      "pumped_mwh": 454.6666666666667,
+      "pumping_energy_share": 0.1378892033966842
+    },
+    {
+      "country": "LT",
+      "local_year": "2025",
+      "pattern": "night_dominant",
+      "days": 99,
+      "complete_days": 364,
+      "day_share": 0.27197802197802196,
+      "pumped_mwh": 748.3333333333334,
+      "pumping_energy_share": 0.22695107157298827
+    },
+    {
+      "country": "LT",
+      "local_year": "2025",
+      "pattern": "both",
+      "days": 190,
+      "complete_days": 364,
+      "day_share": 0.521978021978022,
+      "pumped_mwh": 1943.6666666666667,
+      "pumping_energy_share": 0.5894662353416903
+    },
+    {
+      "country": "LT",
+      "local_year": "2025",
+      "pattern": "other",
+      "days": 16,
+      "complete_days": 364,
+      "day_share": 0.04395604395604396,
+      "pumped_mwh": 150.66666666666666,
+      "pumping_energy_share": 0.045693489688637276
+    },
+    {
+      "country": "LT",
+      "local_year": "2025",
+      "pattern": "no_pumping",
+      "days": 1,
+      "complete_days": 364,
+      "day_share": 0.0027472527472527475,
+      "pumped_mwh": 0.0,
+      "pumping_energy_share": 0.0
+    }
+  ],
+  "protected_files_sha256": {
+    "README.md": "070926eb0ad21422d88cc91946e1a05fa12ba3d6d0d62a329a62862b8d1e8b5b",
+    "scripts/run_sensitivities.py": "84e8e671f353e64b8935a5b4539befc819641bb4dfbaacf382405eeeb4e0aed8",
+    "scripts/run_phs.py": "ec51bc0f51d974fe5cc9840608646e3b019f82fafdfae104804905100393d647",
+    "scripts/prepare_prices.py": "e3d86ee890a9107048b83dbcfe8521677e9b79f21de5a7be851394cacfdd5eb2",
+    "scripts/plot_revised_main_figures.py": "a3fea9aae89bb7aa32bec6c9b6b41ac1b1b4049b1a03f23722964c7072ea7cf5",
+    "scripts/plot_price_summary.py": "061f6b765415e32ab3a764e7713a8fae807352b0071af09ab334dba595c090b4",
+    "scripts/plot_price_spread_figures.py": "2971b78d4e82bb6379c99787542759c29a330235bc65f4c886cf210f30421878",
+    "scripts/analyse_price_spreads.py": "331d0446bb7cf05c797fbe8bbad02c9dfa446f6c4ea12e5c3cc1da67549e9f98",
+    "scripts/plot_main_figures.py": "3e9bf78e1cddf8fcfeacffbefbc1f693c1ec5e8a1170f56cc57c2440380f1857",
+    "scripts/analyse_phs_operating_patterns.py": "f0cf5f6380aa38ec6ab61bb1f561af2e6f245d72f710ea15c3e401202e1e834f",
+    "data/phs_capex_sensitivity.csv": "ca8e7b327314341fa7e5864bd051616fb49f57f596207793a4c445059e6b1384",
+    "data/phs_baseline_dispatch.parquet": "44a9356430136aab6180e8838a8970185fc9f2608a12f6b09bcbaaeda06f8769",
+    "data/phs_financial_sensitivity.csv": "5f5534f48a47c6bdd07ba067e9d25ff53c7feab23974ec9be1878e8c453e5e2e",
+    "data/price_spread_diagnostics_2021_2025.csv": "a0a5b1a6ecff93cb0a73a74f02c03dca0f5d4b834167c08c80be885c13235d4a",
+    "data/phs_sensitivity_annual.csv": "9d5cc9f21f5ed7f43db69ff2c98ea732b476e8cf5348125461892907a8c48b65",
+    "data/prices_PL_LT_native_2021_2025.parquet": "a0546af36dd38e6ebff8b9bbac6a1f76d374e7b2eeb6da03c239c4f572cedbf6",
+    "data/phs_sensitivity_mean.csv": "b156bc9fde6df43bdf9bc93004d911c8ed0f99dc31eb0990e1fd3091bb195daf",
+    "data/prices_PL_LT_hourly_2021_2025.parquet": "691c084638f70e1e8b93ac286dd5eb7c5c137c9eaa36fa0b658bd8debf1b21c0",
+    "data/phs_baseline_annual.csv": "7197b17fbb4171909d2bdea70e8fa198b07e55650c9f9544d01bd7bead9eb615",
+    "data/phs_discrete_baseline_dispatch.parquet": "0691a1058c48385f26d36732ccfaa3bd9feda618fd0c81538ea65d10d52925dd",
+    "data/phs_sensitivity_dispatch.parquet": "beb843200910d5a3bce4fc259bd74336062d691e267a0931e474867591e1c8cd",
+    "data/phs_discrete_baseline_annual.csv": "e0f88900ffd6b342e06adf0668364e85b4d1b25fb28ff399a188a8a6d4c8bf9e",
+    "figures/figure_1_price_structure.pdf": "aa85933ec3a67cbe990f630462a78437045882fbb42c53a1542692d9c18a91bc",
+    "figures/figure_1_technical_sensitivity_revised.pdf": "66f91da041c4c9136104a6bd565a28f58b3c00fbc2949f761de34fba127795ed",
+    "figures/figure_price_structure.png": "e42dc9dddf8e5db95af9411ddfffd60d8c3d984c18c14d91ac467d3cfb783fcd",
+    "figures/price_summary_pl_lt_2021_2025.png": "711c2bfada0d4c3d827e796c7729d504032c84e01f94a4428f9ce733b7620107",
+    "figures/figure_1_market_background.png": "61f65abe7ce497044c8ab47e4a568fdae53b0c384dcd51ccdecd57fcf22e1ee6",
+    "figures/figure_spread_contributions.pdf": "6b0e93400cce3408c97986a259989d6ac531f22a69d725e14244e15581793888",
+    "figures/figure_1_market_background.pdf": "fff387dbec9a93c126cac5583ca60f3b29b39f38dd4e6ca59fa6363a4ca7f953",
+    "figures/price_summary_pl_lt_2021_2025.pdf": "bca45c3b4c60d021956dc6a140cf34dc863a674572365a86128f1d7474c9c64a",
+    "figures/figure_2_supportable_capex_arbitrage_only.pdf": "560b0447cada2da37f462fb963e30f8810aa9e14b0d65207514901c77ccb4c1a",
+    "figures/figure_2_supportable_capex_arbitrage_only.png": "602cbd4b081705cee812ec1140bd836d13d90645fc640ccaaf60321cde8016b9",
+    "figures/figure_spread_contributions.png": "0a6abc084a4671df7a17e2765bd5f8aab5ac4fd7be5c5c8aee215754e28a63a8",
+    "figures/figure_1_technical_sensitivity_revised.png": "bfc4336c98a93d4721ecbb02f5d54fd75912982f145df5ba23f4fa13cfa8f7f8",
+    "figures/figure_1_price_structure.png": "e4ff3f481ab9cb16241ec8b183f3bc34f75a1f7872f00ad2615fc6971bc67a23",
+    "figures/figure_price_structure.pdf": "59fbf237f4be85416460567aa976dc2ae534f3d1773f70a564fb1c3714f1660b",
+    "figures/\u8fd0\u884c\u7ed3\u679c/\u79bb\u6563(4\u6bb5)\u548c\u6574\u6570 \u62bd\u6c34\u529f\u7387\u51e0\u4e4e\u6ca1\u6709\u533a\u522b.png": "68639ca4b1416625f57dccf79defb2955d01759150a59b95cd91c38e6df4f2c5",
+    "figures/\u8fd0\u884c\u7ed3\u679c/\u79bb\u6563(4\u6bb5)\u548c\u6574\u6570 \u62bd\u6c34\u529f\u7387\u51e0\u4e4e\u6ca1\u6709\u533a\u522b.png:Zone.Identifier": "9c60dbbb006632b73c4277e5397f125fb758a87b5726682f7ff446fb6d5ec1f0",
+    "figures/\u8fd0\u884c\u7ed3\u679c/c4756156-3124-43ab-985d-0698c3851fb8.png": "8190ed463b3007de7b98673966ad00d5ae7b01d73b02dabedfc67de26d84a573"
+  },
+  "annual_share_comparison": [
+    {
+      "country": "PL",
+      "window": "midday",
+      "pooled_share": 0.46758166076347896,
+      "arithmetic_mean_annual_share": 0.4617181898470088
+    },
+    {
+      "country": "PL",
+      "window": "night",
+      "pooled_share": 0.43481896890987803,
+      "arithmetic_mean_annual_share": 0.4413935725058957
+    },
+    {
+      "country": "PL",
+      "window": "other",
+      "pooled_share": 0.09759937032664306,
+      "arithmetic_mean_annual_share": 0.09688823764709553
+    },
+    {
+      "country": "LT",
+      "window": "midday",
+      "pooled_share": 0.3225887235260446,
+      "arithmetic_mean_annual_share": 0.31999404309178076
+    },
+    {
+      "country": "LT",
+      "window": "night",
+      "pooled_share": 0.5085861476817402,
+      "arithmetic_mean_annual_share": 0.5110133514345088
+    },
+    {
+      "country": "LT",
+      "window": "other",
+      "pooled_share": 0.16882512879221523,
+      "arithmetic_mean_annual_share": 0.16899260547371053
+    }
+  ],
+  "seasonal_peak_local_hours": [
+    {
+      "country": "PL",
+      "season": "winter",
+      "mean_pumping_mw": 2,
+      "mean_generation_mw": 17,
+      "mean_soc_end_fraction": 6
+    },
+    {
+      "country": "PL",
+      "season": "spring",
+      "mean_pumping_mw": 13,
+      "mean_generation_mw": 19,
+      "mean_soc_end_fraction": 16
+    },
+    {
+      "country": "PL",
+      "season": "summer",
+      "mean_pumping_mw": 12,
+      "mean_generation_mw": 20,
+      "mean_soc_end_fraction": 16
+    },
+    {
+      "country": "PL",
+      "season": "autumn",
+      "mean_pumping_mw": 3,
+      "mean_generation_mw": 18,
+      "mean_soc_end_fraction": 14
+    },
+    {
+      "country": "LT",
+      "season": "winter",
+      "mean_pumping_mw": 4,
+      "mean_generation_mw": 18,
+      "mean_soc_end_fraction": 7
+    },
+    {
+      "country": "LT",
+      "season": "spring",
+      "mean_pumping_mw": 14,
+      "mean_generation_mw": 20,
+      "mean_soc_end_fraction": 17
+    },
+    {
+      "country": "LT",
+      "season": "summer",
+      "mean_pumping_mw": 15,
+      "mean_generation_mw": 21,
+      "mean_soc_end_fraction": 17
+    },
+    {
+      "country": "LT",
+      "season": "autumn",
+      "mean_pumping_mw": 4,
+      "mean_generation_mw": 18,
+      "mean_soc_end_fraction": 6
+    }
+  ],
+  "figure_checks": {
+    "font": "Times New Roman",
+    "png_dpi": 400,
+    "captions": {
+      "figure_phs_seasonal_pumping": "Mean pumping by local hour and calendar season, 2023-2025. Continuous 1 MW, 6 h, 75% model; actual observed hours weighted equally, including DST. A mean double peak does not establish two pumping periods within the same day.",
+      "figure_phs_daily_patterns": "Daily pumping patterns in complete local calendar days. Top: day frequency; bottom: total pumping energy on days of each type, not energy in each window. Midday 10:00-16:00; night 22:00-06:00. Both: each >=20% of daily pumping; otherwise midday/night-led: >=60%; other is the remainder. No-pumping days included. Incomplete boundary days excluded; complete 23/25-hour DST days included."
+    }
+  },
+  "output_sha256": {
+    "data/phs_operating_hourly_profiles.csv": "5aad25dfca3cfa0fa2744a729ffc87cd44660ddffe31acfeb591d83febcd0ea6",
+    "data/phs_operating_daily.parquet": "5d66d8ffb1b5ffba7df29c0664999b1079025edf628df1467709679ae468bb44",
+    "figures/figure_phs_daily_patterns.pdf": "0e565a5a5c26b73f429b0a94fe78d35d0a35a01f8d4d042f3f70d1da45ace59d",
+    "figures/figure_phs_seasonal_pumping.pdf": "cc156cc3c4076f6b6645b7b62b15cbbef311b94fcf91035d06cb79e133741e81",
+    "data/phs_operating_period_summary.csv": "d11413e8fd1fe09cb0fe32ec8f582828c5ea94c99f2b6d64b7f29ffb39c7fcfb",
+    "figures/figure_phs_daily_patterns.png": "60881229562a768daba7a3cd28f6627ddd50f5f2e245d86e6d9c3be0419e5d33",
+    "figures/figure_phs_seasonal_pumping.png": "92312bc89c209baeb33607d1f1a67d4e0564a0d8bbb4f10c0e80b2ef0c4e1ee0",
+    "data/phs_operating_pattern_robustness.csv": "1507d42994a2a144cd37b4fb4404b9fbbd89c7e3db15a7e7f9cd9ef938fb4d0c"
+  },
+  "validation_passed": true
+}

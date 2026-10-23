@@ -1,0 +1,301 @@
+{
+  "version": "v0.1.0",
+  "created_at_utc": "2026-10-23T17:07:56.859774+00:00",
+  "status": "local review only; sharing approval pending",
+  "environment": {
+    "python": "3.12.3",
+    "numpy": "2.4.6",
+    "scipy": "1.18.1",
+    "pyarrow": "25.0.1",
+    "matplotlib": "3.10.9"
+  },
+  "files": [
+    {
+      "source": "hydroforum_conference/scripts/analyse_phs_operating_patterns.py",
+      "packaged_path": "scripts/analyse_phs_operating_patterns.py",
+      "source_sha256": "f0cf5f6380aa38ec6ab61bb1f561af2e6f245d72f710ea15c3e401202e1e834f",
+      "packaged_sha256": "f0cf5f6380aa38ec6ab61bb1f561af2e6f245d72f710ea15c3e401202e1e834f",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "hydroforum_conference/scripts/analyse_price_spreads.py",
+      "packaged_path": "scripts/analyse_price_spreads.py",
+      "source_sha256": "331d0446bb7cf05c797fbe8bbad02c9dfa446f6c4ea12e5c3cc1da67549e9f98",
+      "packaged_sha256": "331d0446bb7cf05c797fbe8bbad02c9dfa446f6c4ea12e5c3cc1da67549e9f98",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "hydroforum_conference/scripts/plot_main_figures.py",
+      "packaged_path": "scripts/plot_main_figures.py",
+      "source_sha256": "3e9bf78e1cddf8fcfeacffbefbc1f693c1ec5e8a1170f56cc57c2440380f1857",
+      "packaged_sha256": "3e9bf78e1cddf8fcfeacffbefbc1f693c1ec5e8a1170f56cc57c2440380f1857",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "hydroforum_conference/scripts/plot_price_spread_figures.py",
+      "packaged_path": "scripts/plot_price_spread_figures.py",
+      "source_sha256": "2971b78d4e82bb6379c99787542759c29a330235bc65f4c886cf210f30421878",
+      "packaged_sha256": "2971b78d4e82bb6379c99787542759c29a330235bc65f4c886cf210f30421878",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "hydroforum_conference/scripts/plot_price_summary.py",
+      "packaged_path": "scripts/plot_price_summary.py",
+      "source_sha256": "061f6b765415e32ab3a764e7713a8fae807352b0071af09ab334dba595c090b4",
+      "packaged_sha256": "061f6b765415e32ab3a764e7713a8fae807352b0071af09ab334dba595c090b4",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "hydroforum_conference/scripts/plot_revised_main_figures.py",
+      "packaged_path": "scripts/plot_revised_main_figures.py",
+      "source_sha256": "a3fea9aae89bb7aa32bec6c9b6b41ac1b1b4049b1a03f23722964c7072ea7cf5",
+      "packaged_sha256": "a3fea9aae89bb7aa32bec6c9b6b41ac1b1b4049b1a03f23722964c7072ea7cf5",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "hydroforum_conference/scripts/prepare_prices.py",
+      "packaged_path": "scripts/prepare_prices.py",
+      "source_sha256": "e3d86ee890a9107048b83dbcfe8521677e9b79f21de5a7be851394cacfdd5eb2",
+      "packaged_sha256": "e3d86ee890a9107048b83dbcfe8521677e9b79f21de5a7be851394cacfdd5eb2",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "hydroforum_conference/scripts/run_phs.py",
+      "packaged_path": "scripts/run_phs.py",
+      "source_sha256": "ec51bc0f51d974fe5cc9840608646e3b019f82fafdfae104804905100393d647",
+      "packaged_sha256": "ec51bc0f51d974fe5cc9840608646e3b019f82fafdfae104804905100393d647",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "hydroforum_conference/scripts/run_sensitivities.py",
+      "packaged_path": "scripts/run_sensitivities.py",
+      "source_sha256": "84e8e671f353e64b8935a5b4539befc819641bb4dfbaacf382405eeeb4e0aed8",
+      "packaged_sha256": "84e8e671f353e64b8935a5b4539befc819641bb4dfbaacf382405eeeb4e0aed8",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "hydroforum_conference/data/phs_baseline_annual.csv",
+      "packaged_path": "data/phs_baseline_annual.csv",
+      "source_sha256": "7197b17fbb4171909d2bdea70e8fa198b07e55650c9f9544d01bd7bead9eb615",
+      "packaged_sha256": "7197b17fbb4171909d2bdea70e8fa198b07e55650c9f9544d01bd7bead9eb615",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "hydroforum_conference/data/phs_capex_sensitivity.csv",
+      "packaged_path": "data/phs_capex_sensitivity.csv",
+      "source_sha256": "ca8e7b327314341fa7e5864bd051616fb49f57f596207793a4c445059e6b1384",
+      "packaged_sha256": "ca8e7b327314341fa7e5864bd051616fb49f57f596207793a4c445059e6b1384",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "hydroforum_conference/data/phs_discrete_baseline_annual.csv",
+      "packaged_path": "data/phs_discrete_baseline_annual.csv",
+      "source_sha256": "e0f88900ffd6b342e06adf0668364e85b4d1b25fb28ff399a188a8a6d4c8bf9e",
+      "packaged_sha256": "e0f88900ffd6b342e06adf0668364e85b4d1b25fb28ff399a188a8a6d4c8bf9e",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "hydroforum_conference/data/phs_financial_sensitivity.csv",
+      "packaged_path": "data/phs_financial_sensitivity.csv",
+      "source_sha256": "5f5534f48a47c6bdd07ba067e9d25ff53c7feab23974ec9be1878e8c453e5e2e",
+      "packaged_sha256": "5f5534f48a47c6bdd07ba067e9d25ff53c7feab23974ec9be1878e8c453e5e2e",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "hydroforum_conference/data/phs_operating_hourly_profiles.csv",
+      "packaged_path": "data/phs_operating_hourly_profiles.csv",
+      "source_sha256": "5aad25dfca3cfa0fa2744a729ffc87cd44660ddffe31acfeb591d83febcd0ea6",
+      "packaged_sha256": "5aad25dfca3cfa0fa2744a729ffc87cd44660ddffe31acfeb591d83febcd0ea6",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "hydroforum_conference/data/phs_operating_pattern_robustness.csv",
+      "packaged_path": "data/phs_operating_pattern_robustness.csv",
+      "source_sha256": "1507d42994a2a144cd37b4fb4404b9fbbd89c7e3db15a7e7f9cd9ef938fb4d0c",
+      "packaged_sha256": "1507d42994a2a144cd37b4fb4404b9fbbd89c7e3db15a7e7f9cd9ef938fb4d0c",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "hydroforum_conference/data/phs_operating_period_summary.csv",
+      "packaged_path": "data/phs_operating_period_summary.csv",
+      "source_sha256": "d11413e8fd1fe09cb0fe32ec8f582828c5ea94c99f2b6d64b7f29ffb39c7fcfb",
+      "packaged_sha256": "d11413e8fd1fe09cb0fe32ec8f582828c5ea94c99f2b6d64b7f29ffb39c7fcfb",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "hydroforum_conference/data/phs_sensitivity_mean.csv",
+      "packaged_path": "data/phs_sensitivity_mean.csv",
+      "source_sha256": "b156bc9fde6df43bdf9bc93004d911c8ed0f99dc31eb0990e1fd3091bb195daf",
+      "packaged_sha256": "b156bc9fde6df43bdf9bc93004d911c8ed0f99dc31eb0990e1fd3091bb195daf",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "hydroforum_conference/data/price_spread_diagnostics_2021_2025.csv",
+      "packaged_path": "data/price_spread_diagnostics_2021_2025.csv",
+      "source_sha256": "a0a5b1a6ecff93cb0a73a74f02c03dca0f5d4b834167c08c80be885c13235d4a",
+      "packaged_sha256": "a0a5b1a6ecff93cb0a73a74f02c03dca0f5d4b834167c08c80be885c13235d4a",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "hydroforum_conference/data/prices_PL_LT_hourly_2021_2025.parquet",
+      "packaged_path": "data/prices_PL_LT_hourly_2021_2025.parquet",
+      "source_sha256": "b2512c51aad659d7e4c573b6306d2bf79e0bba6242fe98326555a6f32cc6605e",
+      "packaged_sha256": "691c084638f70e1e8b93ac286dd5eb7c5c137c9eaa36fa0b658bd8debf1b21c0",
+      "treatment": "provenance paths anonymised; file-hash links updated; tabular values exactly unchanged"
+    },
+    {
+      "source": "hydroforum_conference/data/prices_PL_LT_native_2021_2025.parquet",
+      "packaged_path": "data/prices_PL_LT_native_2021_2025.parquet",
+      "source_sha256": "f6314646a5341f6c5bf99dd5c74a779cbc7f7b3d2d5087326f77e20242c3504e",
+      "packaged_sha256": "a0546af36dd38e6ebff8b9bbac6a1f76d374e7b2eeb6da03c239c4f572cedbf6",
+      "treatment": "provenance paths anonymised; file-hash links updated; tabular values exactly unchanged"
+    },
+    {
+      "source": "hydroforum_conference/data/phs_baseline_dispatch.parquet",
+      "packaged_path": "data/phs_baseline_dispatch.parquet",
+      "source_sha256": "9644270139642e8c8f1228d225d9d6d9d7ada809407fdad7a1e6209ba010d864",
+      "packaged_sha256": "44a9356430136aab6180e8838a8970185fc9f2608a12f6b09bcbaaeda06f8769",
+      "treatment": "provenance paths anonymised; file-hash links updated; tabular values exactly unchanged"
+    },
+    {
+      "source": "hydroforum_conference/data/phs_discrete_baseline_dispatch.parquet",
+      "packaged_path": "data/phs_discrete_baseline_dispatch.parquet",
+      "source_sha256": "e5f55fb34fb6cddaf63c8680da3c20c8f99711cb8bd6c97ea435104f5901f44d",
+      "packaged_sha256": "0691a1058c48385f26d36732ccfaa3bd9feda618fd0c81538ea65d10d52925dd",
+      "treatment": "provenance paths anonymised; file-hash links updated; tabular values exactly unchanged"
+    },
+    {
+      "source": "hydroforum_conference/data/phs_sensitivity_dispatch.parquet",
+      "packaged_path": "data/phs_sensitivity_dispatch.parquet",
+      "source_sha256": "d86a4dd5a585b9fe553e36991c9097a9f288f16face91ef3ca4ac89faf14ce4a",
+      "packaged_sha256": "beb843200910d5a3bce4fc259bd74336062d691e267a0931e474867591e1c8cd",
+      "treatment": "provenance paths anonymised; file-hash links updated; tabular values exactly unchanged"
+    },
+    {
+      "source": "hydroforum_conference/data/phs_sensitivity_annual.csv",
+      "packaged_path": "data/phs_sensitivity_annual.csv",
+      "source_sha256": "bbb4479298ad68ff59faa8639dff26640352df88fd49e085b29722886ba304de",
+      "packaged_sha256": "9d5cc9f21f5ed7f43db69ff2c98ea732b476e8cf5348125461892907a8c48b65",
+      "treatment": "hash-reference cells updated only; all numerical and other result cells unchanged"
+    },
+    {
+      "source": "hydroforum_conference/data/phs_operating_daily.parquet",
+      "packaged_path": "data/phs_operating_daily.parquet",
+      "source_sha256": "a3f2ca7a2dd7bffe4e8aeadf8d2446d9166fbc8891aa6e4f266af42d19b6baf1",
+      "packaged_sha256": "5d66d8ffb1b5ffba7df29c0664999b1079025edf628df1467709679ae468bb44",
+      "treatment": "provenance paths anonymised; file-hash links updated; tabular values exactly unchanged"
+    },
+    {
+      "source": "hydroforum_conference/data/phs_operating_patterns_audit.json",
+      "packaged_path": "data/phs_operating_patterns_audit.json",
+      "source_sha256": "cd8c5d6f5f6298aeeaf72c9f4f7e97674d98a40e00e0962903d0ab4ad46cf76a",
+      "packaged_sha256": "355e123060a09dad9b9d62d65f11b64339746ba7d8df2a2b55a879c9c54c0700",
+      "treatment": "historical audit retained; provenance paths anonymised and known hash links updated"
+    },
+    {
+      "source": "hydroforum_conference/figures/figure_1_market_background.png",
+      "packaged_path": "figures/figure_1_market_background.png",
+      "source_sha256": "61f65abe7ce497044c8ab47e4a568fdae53b0c384dcd51ccdecd57fcf22e1ee6",
+      "packaged_sha256": "61f65abe7ce497044c8ab47e4a568fdae53b0c384dcd51ccdecd57fcf22e1ee6",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "hydroforum_conference/figures/figure_1_market_background.pdf",
+      "packaged_path": "figures/figure_1_market_background.pdf",
+      "source_sha256": "fff387dbec9a93c126cac5583ca60f3b29b39f38dd4e6ca59fa6363a4ca7f953",
+      "packaged_sha256": "fff387dbec9a93c126cac5583ca60f3b29b39f38dd4e6ca59fa6363a4ca7f953",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "hydroforum_conference/figures/figure_1_technical_sensitivity_revised.png",
+      "packaged_path": "figures/figure_1_technical_sensitivity_revised.png",
+      "source_sha256": "bfc4336c98a93d4721ecbb02f5d54fd75912982f145df5ba23f4fa13cfa8f7f8",
+      "packaged_sha256": "bfc4336c98a93d4721ecbb02f5d54fd75912982f145df5ba23f4fa13cfa8f7f8",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "hydroforum_conference/figures/figure_1_technical_sensitivity_revised.pdf",
+      "packaged_path": "figures/figure_1_technical_sensitivity_revised.pdf",
+      "source_sha256": "66f91da041c4c9136104a6bd565a28f58b3c00fbc2949f761de34fba127795ed",
+      "packaged_sha256": "66f91da041c4c9136104a6bd565a28f58b3c00fbc2949f761de34fba127795ed",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "hydroforum_conference/figures/figure_2_supportable_capex_arbitrage_only.png",
+      "packaged_path": "figures/figure_2_supportable_capex_arbitrage_only.png",
+      "source_sha256": "602cbd4b081705cee812ec1140bd836d13d90645fc640ccaaf60321cde8016b9",
+      "packaged_sha256": "602cbd4b081705cee812ec1140bd836d13d90645fc640ccaaf60321cde8016b9",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "hydroforum_conference/figures/figure_2_supportable_capex_arbitrage_only.pdf",
+      "packaged_path": "figures/figure_2_supportable_capex_arbitrage_only.pdf",
+      "source_sha256": "560b0447cada2da37f462fb963e30f8810aa9e14b0d65207514901c77ccb4c1a",
+      "packaged_sha256": "560b0447cada2da37f462fb963e30f8810aa9e14b0d65207514901c77ccb4c1a",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "hydroforum_conference/figures/figure_phs_seasonal_pumping.png",
+      "packaged_path": "figures/figure_phs_seasonal_pumping.png",
+      "source_sha256": "92312bc89c209baeb33607d1f1a67d4e0564a0d8bbb4f10c0e80b2ef0c4e1ee0",
+      "packaged_sha256": "92312bc89c209baeb33607d1f1a67d4e0564a0d8bbb4f10c0e80b2ef0c4e1ee0",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "hydroforum_conference/figures/figure_phs_seasonal_pumping.pdf",
+      "packaged_path": "figures/figure_phs_seasonal_pumping.pdf",
+      "source_sha256": "cc156cc3c4076f6b6645b7b62b15cbbef311b94fcf91035d06cb79e133741e81",
+      "packaged_sha256": "cc156cc3c4076f6b6645b7b62b15cbbef311b94fcf91035d06cb79e133741e81",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "hydroforum_conference/figures/figure_phs_daily_patterns.png",
+      "packaged_path": "figures/figure_phs_daily_patterns.png",
+      "source_sha256": "60881229562a768daba7a3cd28f6627ddd50f5f2e245d86e6d9c3be0419e5d33",
+      "packaged_sha256": "60881229562a768daba7a3cd28f6627ddd50f5f2e245d86e6d9c3be0419e5d33",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "hydroforum_conference/figures/figure_phs_daily_patterns.pdf",
+      "packaged_path": "figures/figure_phs_daily_patterns.pdf",
+      "source_sha256": "0e565a5a5c26b73f429b0a94fe78d35d0a35a01f8d4d042f3f70d1da45ace59d",
+      "packaged_sha256": "0e565a5a5c26b73f429b0a94fe78d35d0a35a01f8d4d042f3f70d1da45ace59d",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "hydroforum_conference/figures/figure_price_structure.png",
+      "packaged_path": "figures/figure_price_structure.png",
+      "source_sha256": "e42dc9dddf8e5db95af9411ddfffd60d8c3d984c18c14d91ac467d3cfb783fcd",
+      "packaged_sha256": "e42dc9dddf8e5db95af9411ddfffd60d8c3d984c18c14d91ac467d3cfb783fcd",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "hydroforum_conference/figures/figure_price_structure.pdf",
+      "packaged_path": "figures/figure_price_structure.pdf",
+      "source_sha256": "59fbf237f4be85416460567aa976dc2ae534f3d1773f70a564fb1c3714f1660b",
+      "packaged_sha256": "59fbf237f4be85416460567aa976dc2ae534f3d1773f70a564fb1c3714f1660b",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "hydroforum_conference/figures/figure_spread_contributions.png",
+      "packaged_path": "figures/figure_spread_contributions.png",
+      "source_sha256": "0a6abc084a4671df7a17e2765bd5f8aab5ac4fd7be5c5c8aee215754e28a63a8",
+      "packaged_sha256": "0a6abc084a4671df7a17e2765bd5f8aab5ac4fd7be5c5c8aee215754e28a63a8",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "hydroforum_conference/figures/figure_spread_contributions.pdf",
+      "packaged_path": "figures/figure_spread_contributions.pdf",
+      "source_sha256": "6b0e93400cce3408c97986a259989d6ac531f22a69d725e14244e15581793888",
+      "packaged_sha256": "6b0e93400cce3408c97986a259989d6ac531f22a69d725e14244e15581793888",
+      "treatment": "byte-identical copy"
+    },
+    {
+      "source": "hydroforum_conference/phs_operating_patterns_summary.docx",
+      "packaged_path": "reports/phs_operating_patterns_summary.docx",
+      "source_sha256": "4fcabcbe178ee3bf2374e7bdfb3da3b3a5544c290a6038f736d66f27d38f6fa8",
+      "packaged_sha256": "4fcabcbe178ee3bf2374e7bdfb3da3b3a5544c290a6038f736d66f27d38f6fa8",
+      "treatment": "byte-identical copy"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite version 0.1.0 using these metadata. The MIT licence applies to original code, not to third-party data."
+type: software
+title: "HYDROFORUM PHS Day-Ahead Arbitrage in Poland and Lithuania"
+version: "0.1.0"
+authors:
+  - family-names: "Cui"
+    given-names: "Yuting"
+    affiliation: "Wrocław University of Science and Technology"
+    email: "yuting.cui@pwr.edu.pl"
+license: MIT
+keywords:
+  - pumped-storage hydropower
+  - day-ahead arbitrage
+  - Poland
+  - Lithuania

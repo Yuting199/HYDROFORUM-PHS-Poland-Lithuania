@@ -1,0 +1,5 @@
+# Versions recorded in the existing study environment; no installation was run for packaging.
+numpy==2.4.6
+scipy==1.18.1
+pyarrow==25.0.1
+matplotlib==3.10.9
